@@ -4,18 +4,17 @@ title = "Los viernes, comics"
 theme = "hugo-tracks-theme"
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "los-viernes-comics"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 [params]
   # Use custom.css for your custom styling
   style = "default"
-  description = "Describe your website"
+  description = "Para recomendaciones y similares sobre comics, películas, libros..."
   copyright = "&copy;2017 LVCOM"
   sidebarAbout = [
-    "I am a creative illustrator and graphic designer with more than 10 years of experience.",
-    "Originally from Toronto, currently based in London."
+    "Informático y friki"
   ]
 
   # Contact page
@@ -46,14 +45,14 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  #facebook      = "full page or profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
+# facebook      = "full page or profile url in facebook"
+#  googleplus    = "full profile url in googleplus"
   email         = "moriquendium@gmail.com"
-  #twitter       = "full profile url in twitter"
-  #linkedin      = "full profile url in linkedin"
-  #stackoverflow = "full profile url in stackoverflow"
-  #instagram     = "full profile url in instagram"
-  #github        = "full profile url in github"
+#  twitter       = "full profile url in twitter"
+#  linkedin      = "full profile url in linkedin"
+#  stackoverflow = "full profile url in stackoverflow"
+#  instagram     = "full profile url in instagram"
+#  github        = "full profile url in github"
 
 
 
