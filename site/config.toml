@@ -10,7 +10,7 @@ Copyright = "All rights reserved - 2017"
 canonifyurls = true
 
 [params]
-  description = "Recomendaciones reflexionadas de comics, libros, perlículas"
+  description = "Recomendaciones reflexionadas de comics, libros, cine"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   cover = "img/cover.jpg"
   author = "Moriquendium"
