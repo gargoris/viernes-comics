@@ -42,7 +42,8 @@ gulp.task("js", (cb) => {
 gulp.task("server", ["hugo", "css", "js"], () => {
   browserSync.init({
     server: {
-      baseDir: "./dist"
+      baseDir: "./dist",
+      port:8080
     }
   });
   gulp.watch("./src/js/**/*.js", ["js"]);
