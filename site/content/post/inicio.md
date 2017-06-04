@@ -1,6 +1,6 @@
 +++
 date = "2017-06-04T13:35:24+02:00"
-title = "Nuevos comienzos"
+title = "Arrancando"
 draft = false
 image = "img/catedral.jpg"
 showonlyimage = true
@@ -9,9 +9,6 @@ categories = [
 ]
 weight = 0
 +++
-
-Arrancando
-==========
 
 De nuevo arrancando un blog. ¿Por qué "Los viernes, comics"?. 
 

@@ -1,58 +1,37 @@
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "es-es"
 title = "Los viernes, comics"
-theme = "hugo-tracks-theme"
+theme = "casper"
+paginate = 5
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = "los-viernes-comics"
-# Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+DisqusShortname = "los-viernes-comics"
+Copyright = "All rights reserved - 2017"
+canonifyurls = true
 
 [params]
-  # Use custom.css for your custom styling
-  style = "default"
-  description = "Para recomendaciones y similares sobre comics, películas, libros..."
-  copyright = "&copy;2017 LVCOM"
-  sidebarAbout = [
-    "Informático y friki"
-  ]
-
-  # Contact page
-     # Since this template is static, the contact form uses www.formspree.io as a
-     # proxy. The form makes a POST request to their servers to send the actual
-     # email. Visitors can send up to a 1000 emails each month for free.
-     #
-     # What you need to do for the setup?
-     #
-     # - set your email address under 'email' below
-     # - upload the generated site to your server
-     # - send a dummy email yourself to confirm your account
-     # - click the confirm link in the email from www.formspree.io
-     # - you're done. Happy mailing!
-  email = "moriquendium@gmail.com"
-
-  # Nav links in the side bar
-  [[params.navlinks]]
-  name = "Home"
-  url = ""
-
-  [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
+  description = "Recomendaciones reflexionadas de comics, libros, perlículas"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  cover = "img/cover.jpg"
+  author = "Moriquendium"
+  authorlocation = "Sevilla, España"
+  # authorwebsite = "http://vjeantet.fr"
+  bio= "Soy desarrollador de software y friki, algo que ahora se permite que vaya por separado"
+  logo = "img/logo.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  # githubName = "vjeantet"
+  # twitterName = "vjeantet"
+  # facebookName = ""
+  # linkedinName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "default"
 
   [params.social]
-# facebook      = "full page or profile url in facebook"
-#  googleplus    = "full profile url in googleplus"
-  email         = "moriquendium@gmail.com"
-#  twitter       = "full profile url in twitter"
-#  linkedin      = "full profile url in linkedin"
-#  stackoverflow = "full profile url in stackoverflow"
-#  instagram     = "full profile url in instagram"
-#  github        = "full profile url in github"
-
-
-
+    twitter = "your_twitter"
