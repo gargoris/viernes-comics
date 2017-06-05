@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "es-es"
+languageCode = "en-us"
 title = "Los viernes, comics"
 theme = "casper"
 paginate = 5
