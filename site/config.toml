@@ -1,7 +1,7 @@
 baseurl = "/"
-languageCode = "en-us"
 title = "Los viernes, comics"
-theme = "casper"
+theme = "ghostwriter"
+languageCode = "es-es"
 paginate = 5
 
 # Enable comments by entering your Disqus shortname
@@ -12,26 +12,53 @@ canonifyurls = true
 [params]
   description = "Recomendaciones reflexionadas de comics, libros, cine"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
-  cover = "img/cover.jpg"
-  author = "Moriquendium"
+  cover = "/img/cover.jpg"
+  author = "LVC Collective"
   authorlocation = "Sevilla, España"
   # authorwebsite = "http://vjeantet.fr"
-  bio= "Soy desarrollador de software y friki, algo que ahora se permite que vaya por separado"
+  bio= "Desarrolladores y frikis"
   logo = "img/logo.png"
-  # googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..."
-  # githubName = "vjeantet"
-  # twitterName = "vjeantet"
-  # facebookName = ""
-  # linkedinName = ""
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
-  
-  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
-  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
-  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
-  hjsStyle = "default"
 
-  [params.social]
-    twitter = "your_twitter"
+[Author]
+    name = "Los viernes, comics"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "LVC"
+    description = "Comics, películas, series, libros: lo que nos guste"
+    github = "https://github.com/XXX"
+    gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://linkedin.com/in/XXX/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/XXX"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+
+[[menu.main]]
+    name = "Contacto"
+    url = "/page/contacto/"
+    weight = 2
+
+[[menu.main]]
+    name = "Sobre nosotros"
+    url = "/page/about/"
+    weight = 3
