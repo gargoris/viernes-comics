@@ -9,6 +9,11 @@ DisqusShortname = "viernes-frikis"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
 
+enableRobotsTXT = true # Suggested, it generates a robots.txt
+googleAnalytics = "" # Optional, add tracking Id for analytics
+disqusShortname = "" # Optional, add Disqus shortname for comments
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+
 [params]
   description = "Recomendaciones reflexionadas de comics, libros, cine"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
