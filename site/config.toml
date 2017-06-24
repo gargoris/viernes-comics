@@ -1,25 +1,63 @@
 baseurl = "/"
 title = "Viernes frikis"
-theme = "casper"
+theme = "ghostwriter"
 languageCode = "es-es"
 paginate = 5
 
 # Enable comments by entering your Disqus shortname
-DisqusShortname = "viernes-frikis"
+DisqusShortname = "los-viernes-comics"
 Copyright = "All rights reserved - 2017"
 canonifyurls = true
-
-
 
 [params]
   description = "Recomendaciones reflexionadas de comics, libros, cine"
   metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
   cover = "/img/cover.jpg"
-  author = "VFriki Collective"
+  author = "VFrikis Collective"
   authorlocation = "Sevilla, España"
   bio= "Desarrolladores y frikis"
-  logo = "/img/logo.png"
+  logo = "img/logo.png"
 
 [Author]
-    name = "Viernes frikis"
+    name = "VFrikis  Collective"
+    profile = "https://google.com/+XXX"
 
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Viernes frikis"
+    description = "Comics, películas, series, libros: lo que nos guste (o lo que no)"
+    github = "https://github.com/XXX"
+    gitlab = "https://gitlab.com/XXX"
+    linkedin = "https://linkedin.com/in/XXX/"
+    gplus = "https://google.com/+XXX"
+    twitter = "https://twitter.com/XXX"
+    stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
+    email = "XXX@example.com"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+
+[[menu.main]]
+    name = "Contacto"
+    url = "/page/contacto/"
+    weight = 2
+
+[[menu.main]]
+    name = "Sobre nosotros"
+    url = "/page/about/"
+    weight = 3

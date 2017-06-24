@@ -1,9 +1,15 @@
 <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
-    <a href="{{ .Permalink }}" itemprop="url" title="Go to post detail">
+    <a href="{{ .Permalink }}#disqus_thread" itemprop="url" title="Go to post detail">
+        {{if .Params.check}}
+        <span class="fa fa-check fa-lg text-success">&nbsp;</span>
+        {{else}}
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-check fa-stack-1x text-success"></i>
+        <i class="fa fa-ban fa-stack-2x text-danger"></i>
+        </span>
+        {{end}}
         <h4 class="post-stub-title" itemprop="name">{{ .Title }}</h4>
-        <time class="post-stub-date" datetime="{{ .Date.Format "2006-01-02" }}">Published {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</time>
-        {{ with .Params.featured }}
-            <span class="post-stub-tag">Featured</span>
-        {{ end }}
+        <time class="post-stub-date" datetime="{{ .Date.Format " 2006-01-02 " }}">Publicado {{ dateFormat (default "Mon, Jan 2, 2006" .Site.Params.dateFormat) .Date }}</time> {{ with .Params.featured }}
+        <span class="post-stub-tag">Destacado</span> {{ end }}
     </a>
 </li>
