@@ -41,7 +41,7 @@ canonifyurls = true
     shareFacebook = true
     shareGooglePlus = true
     shareLinkedIn = false
-    dateFormat = "Mon, Jan 2, 2006"
+    dateFormat = "2006/01/02"
 
 [Permalinks]
     post = "/:year/:month/:day/:filename"
