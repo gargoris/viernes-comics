@@ -1,14 +1,14 @@
 +++
-title = "About"
+title = "Sobre nosotros"
 date = 2015-04-03T02:13:50Z
-author = "My Name"
-description = "Things about me."
+author = "VFrikis  Collective"
 +++
 
-## About
+En algún momento decidimos compartir nuestras experiencias sobre los libros o comics que hemos leído o algunas películas o series que hemos visto. Aquí añadiremos qué nos gustó y qué no, que tan importante es una cosa como la otra.
+Hemos añadido un pequeño sistema de marcas a los posts, para su rápida identificación.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dolor in magna lobortis egestas. Suspendisse eu erat tempor, tristique neque eu, convallis nulla. Curabitur vel bibendum lacus, at semper mauris. Suspendisse aliquet commodo ex, sed sagittis metus aliquam id. Maecenas feugiat rutrum lorem vel imperdiet. Nullam ornare lectus ut enim finibus, et porttitor mi tincidunt. Aenean lacinia, leo quis vehicula eleifend, quam libero sagittis erat, at euismod augue mauris et sapien. Sed id vehicula lectus, sit amet auctor ipsum. Nunc sed massa vel ex condimentum aliquam in a enim. Cras enim sem, tristique eu enim ac, congue commodo mi. Integer quis orci at dolor blandit eleifend.
-
-## School
-
-Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec. Praesent sagittis luctus dignissim.
+||Descripción|
+|----|------------|
+|<span class="fa fa-check fa-lg text-success">&nbsp;</span>|Recomendación: este producto nos parece bien y por qué|
+|<span class="fa-stack fa-lg"><i class="fa fa-check fa-stack-1x text-success"></i><i class="fa fa-ban fa-stack-2x text-danger"></i></span>|Desrecomendación, que no existe en español pero describe lo que haremos: no te recomendamos el producto y, de paso, te contamos nuestras razones personales |
+|<span class="fa fa-hand-spock-o fa-lg text-success">&nbsp;</span>|Post común|
