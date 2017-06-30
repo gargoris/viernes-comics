@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "Viernes frikis"
-theme = "ghostwriter"
+theme = "crab"
 languageCode = "es-es"
 paginate = 5
 
