@@ -20,7 +20,6 @@ canonifyurls = true
 
 [Author]
     name = "VFrikis  Collective"
-    profile = "https://google.com/+XXX"
 
 [permalinks]
 blog  = "/post/:year/:month/:title/"
@@ -82,5 +81,5 @@ url = "/post/"
 
 [[menu.main]]
 weight = 6
-name = "Contact"
+name = "Contacto"
 url = "/contact/"
