@@ -83,4 +83,4 @@ url = "/post/"
 [[menu.main]]
 weight = 6
 name = "Contacto"
-url = "/contact/"
+url = "/contacto/"
