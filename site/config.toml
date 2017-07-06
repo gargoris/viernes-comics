@@ -1,6 +1,6 @@
 baseurl = "/"
 title = "Viernes Frikis Collective"
-theme = "casper"
+theme = "hugo-universal-theme"
 languageCode = "es-es"
 paginate = 5
 
